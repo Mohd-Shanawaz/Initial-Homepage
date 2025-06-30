@@ -10,7 +10,7 @@ import PageNotFound from "./Pages/Pagenotfound/page404";
 function App() {
   return (
     <div>
-        <Navbar/>,
+        <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path={"/Electronics"} element={<Electronics/>} />

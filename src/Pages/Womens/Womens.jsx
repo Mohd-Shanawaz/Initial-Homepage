@@ -2,10 +2,10 @@ import React from "react";
 import "./Womens.css"; 
 
 const womensProducts = [
-  { id: 1, name: "Summer Dress", price: "$59", image: "https://via.placeholder.com/200x250?text=Dress" },
-  { id: 2, name: "Handbag", price: "$120", image: "https://via.placeholder.com/200x250?text=Handbag" },
-  { id: 3, name: "High Heels", price: "$89", image: "https://via.placeholder.com/200x250?text=Heels" },
-  { id: 4, name: "Sunglasses", price: "$49", image: "https://via.placeholder.com/200x250?text=Sunglasses" },
+  { id: 1, name: "Summer Dress", price: "$59", image: "https://rukminim2.flixcart.com/image/612/612/xif0q/dress/p/j/v/m-6001-dress-new-zwerlon-original-imah2thfsyfjbe3u.jpeg?q=70" },
+  { id: 2, name: "Handbag", price: "$120", image: "https://rukminim2.flixcart.com/image/612/612/xif0q/hand-messenger-bag/r/n/j/-original-imagtz26zahaqvkh.jpeg?q=70" },
+  { id: 3, name: "High Heels", price: "$89", image: "https://rukminim2.flixcart.com/image/612/612/l30hmkw0/sandal/0/j/m/7-icn-si-w-02-green-40-iconics-green-original-image8f4gxqzs7cz.jpeg?q=70" },
+  { id: 4, name: "Sunglasses", price: "$49", image: "https://rukminim2.flixcart.com/image/612/612/xif0q/sunglass/g/i/l/m-3026-gold-black-b-piraso-original-imah8acaunve3vke.jpeg?q=70" },
 ];
 
 const Womens = () => {
