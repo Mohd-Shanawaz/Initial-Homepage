@@ -1,0 +1,89 @@
+/* MensPage.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .mens-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .mens-header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .mens-main {
+    flex: 1;
+    padding: 40px 20px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+  
+  .product-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .product-name {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .product-price {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .buy-button {
+    margin-top: 10px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #feb47b;
+  }
+  
+  .mens-footer {
+    background-color: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
